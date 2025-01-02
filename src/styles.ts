@@ -4,12 +4,13 @@ const EstiloGlobal = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-.inter-<uniquifier> {
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: italic;
-}
+  .inter-<uniquifier> {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: italic;
+  }
+  list-style: none;
   }
 
   body {
